@@ -1,2 +1,2 @@
-https://github.com/annashcherenkova/rsschool-cv/cv
+https://annashcherenkova.github.io/rsschool-cv/
 Project_RS school                
