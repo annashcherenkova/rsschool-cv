@@ -1,0 +1,106 @@
+html {
+  background-color: blanchedalmond ;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+  min-height: 150vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 1.5;
+  color: #0b156b ;
+}
+
+  .nav-list1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .section-item span {
+    color: #bb0569;
+  }
+  .code-name {
+    color: #0a1e49;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  .section { 
+    padding: 4px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7b718d;
+  }
+  .section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 0;
+    padding-left: 40px;
+  }
+
+  .header {     
+    background-color: #142d63;
+  }
+
+  .section-title {
+    margin-bottom: 10px;  
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #142d63;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+    list-style: none;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: cornsilk;
+  }
+ 
+
+  .footer {
+    background-color: #142d63;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .github {
+    color: #d10d79;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  
+  .rss {
+    width: 130px;
+    height: 50px;
+    background-image: url("./assets/svg/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
